@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed": "#e5deff", "primary-fixed": "#e9ddff", "surface-bright": "#f9f9ff", "secondary-fixed-dim": "#d3bbff", "on-tertiary-container": "#fffbff", "on-error-container": "#93000a", "surface-variant": "#dce2f3", "on-tertiary-fixed": "#1b1735", "primary": "#6b38d4", "surface-container": "#e7eefe", "on-tertiary": "#ffffff", "surface-container-high": "#e2e8f8", "error-container": "#ffdad6", "tertiary-fixed-dim": "#c8c2e9", "on-surface": "#151c27", "on-tertiary-fixed-variant": "#474363", "primary-fixed-dim": "#d0bcff", "inverse-surface": "#2a313d", "secondary": "#6f46b9", "surface": "#f9f9ff", "primary-container": "#8455ef", "background": "#f9f9ff", "surface-tint": "#6d3bd7", "surface-container-lowest": "#ffffff", "secondary-fixed": "#ebdcff", "on-secondary-fixed-variant": "#572ba0", "inverse-on-surface": "#ebf1ff", "outline": "#7b7486", "on-secondary-fixed": "#260059", "on-primary-fixed-variant": "#5516be", "error": "#ba1a1a", "tertiary": "#5d587a", "on-background": "#151c27", "surface-dim": "#d3daea", "secondary-container": "#b188ff", "on-surface-variant": "#494454", "surface-container-low": "#f0f3ff", "outline-variant": "#cbc3d7", "on-primary-fixed": "#23005c", "on-secondary": "#ffffff", "inverse-primary": "#d0bcff", "on-primary": "#ffffff", "surface-container-highest": "#dce2f3", "tertiary-container": "#757093", "on-primary-container": "#fffbff", "on-error": "#ffffff", "on-secondary-container": "#44118d" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "gutter": "1rem", "gutter-lg": "2rem", "space-md": "1rem", "margin-md": "2rem", "space-lg": "1.5rem", "margin": "1rem", "margin-lg": "3rem", "space-sm": "0.5rem", "space-xl": "2rem", "gutter-md": "1.5rem", "space-xs": "0.25rem" }, "fontFamily": { "body-md": ["Geist"], "headline-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-sm": ["Geist"], "body-lg": ["Geist"], "headline-xl-mobile": ["Plus Jakarta Sans"], "label-md": ["Geist"], "label-sm": ["Geist"], "headline-md": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "mono-code": ["Geist"] }, "fontSize": { "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-xl-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "mono-code": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(76,29,149,0.04)]"><div class="h-16 w-full px-gutter-lg flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><img alt="LabReserve Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAaYOuILgRGGQaj0QCi2WpKSl7cC2ogrYsx0By2tzHjTyupWlu0Npz7FoojqjRZHZyZ9J3itnT3dzdxxEMwWQDA-NlJoC2bb7nZif-Q1jOmIxilXp1SwJRPCsYP0gZGnCMO5phPky7cCTYZQod1dWV8ZSoAazknWw3g7lurCyvXJfQTshNJ83B3QoGGTc2iikessOttnHiECID6bsO0U6_xEeO-qdxuDvbGbueQXHL5"/><div class="flex flex-col"><span class="font-title-md text-title-md text-on-surface tracking-tight leading-none">LabReserve</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Centro de Cómputo</span></div></div><nav class="hidden lg:flex items-center gap-space-xs bg-surface-container-low px-space-xs py-space-xs rounded-full" data-active-classes="bg-primary-container text-on-primary-container font-medium shadow-sm"><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="reservar-ticket" href="#">Reservar & Ticket</a><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="gestion-del-encargado" href="#">Gestión del Encargado</a><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="esquema-del-laboratorio" href="#">Esquema del Laboratorio</a><a aria-current="page" class="px-space-md py-space-xs rounded-full transition-all bg-primary-container text-on-primary-container font-medium shadow-sm" data-path="registro-privado" href="#">Registro Privado</a></nav><div class="flex items-center gap-space-md"><div class="relative flex items-center bg-surface-container-lowest px-space-sm py-space-xs rounded-lg shadow-[0_1px_4px_rgba(76,29,149,0.04)]"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mr-space-xs hidden sm:inline">Rol:</span><select class="bg-transparent font-label-md text-label-md text-on-surface font-medium outline-none cursor-pointer pr-space-xs"><option value="estudiante">Estudiante</option><option value="profesor">Profesor</option><option value="encargado">Encargado de Lab</option></select></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Restricted Access Banner / Security Context -->
+<div class="w-full px-gutter-lg pt-space-lg pb-space-md">
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-sm relative overflow-hidden">
+<div class="absolute -right-10 -top-10 w-48 h-48 rounded-full bg-primary/5 pointer-events-none blur-2xl"></div>
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md relative z-10">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">shield_lock</span>
+</div>
+<div>
+<div class="flex flex-wrap items-center gap-space-xs mb-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-error animate-pulse"></span>
+                Acceso Restringido • Confidencial Interno
+              </span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-mono-code text-mono-code">
+                SESSION_HASH: 0x9F4B::LOCAL_NODE_4402
+              </span>
+</div>
+<h1 class="font-headline-md text-headline-md text-on-surface tracking-tight">Registro Privado de Auditoría & Bitácora</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+              Trazabilidad estricta de sesiones de cómputo de 2.0 horas. Sistema cerrado: sin endpoints públicos ni divulgación externa.
+            </p>
+</div>
+</div>
+<!-- Session Signature & Export Vault CTA -->
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container-lowest text-primary rounded-lg font-label-md text-label-md hover:bg-surface-container-high transition-colors shadow-sm" id="btnExport">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Exportar Copia Segura (.enc)</span>
+</button>
+<div class="h-9 w-px bg-outline-variant/30 hidden sm:block"></div>
+<div class="flex flex-col text-right hidden sm:flex">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Operador en Turno</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Ing. Valenzuela (Encargado)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Key Security Metrics Ribbon -->
+<div class="w-full px-gutter-lg py-space-sm">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Registros Totales (Ciclo)</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">1,428</span>
+<span class="font-body-sm text-body-sm text-tertiary block mt-0.5">100% Retención local</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">database</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Sesiones Aprobadas</span>
+<span class="font-headline-sm text-headline-sm text-primary">1,392</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-0.5">Bloques 2.0h validados</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[20px]">verified_user</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Incidencias Resueltas</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">24 / 24</span>
+<span class="font-body-sm text-body-sm text-emerald-700 block mt-0.5">Cero pendientes críticos</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">build_circle</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Índice de Salud de Hardware</span>
+<span class="font-headline-sm text-headline-sm text-emerald-700">98.4%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-0.5">Diagnóstico post-cierre</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800">
+<span class="material-symbols-outlined text-[20px]">memory</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 1: Main Confidential Audit Table -->
+<div class="w-full px-gutter-lg pt-space-md pb-space-lg">
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col">
+<!-- Filter Bar -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md pb-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<h2 class="font-title-md text-title-md text-on-surface">Bitácora Interna de Reservas & Acreditaciones</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Listado de validación local. Exclusivo para gestión y coordinación docente.</p>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs">
+<!-- Filter: Status -->
+<div class="bg-surface-container-low px-space-sm py-1.5 rounded-lg flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Afirmación:</span>
+<select class="bg-transparent font-label-md text-label-md text-on-surface outline-none cursor-pointer" id="statusFilter">
+<option value="todos">Todos los estados</option>
+<option value="aprobado">Aprobado</option>
+<option value="denegado">Denegado</option>
+<option value="finalizado">Finalizado</option>
+</select>
+</div>
+<!-- Filter: Role -->
+<div class="bg-surface-container-low px-space-sm py-1.5 rounded-lg flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rol:</span>
+<select class="bg-transparent font-label-md text-label-md text-on-surface outline-none cursor-pointer" id="roleFilter">
+<option value="todos">Todos los usuarios</option>
+<option value="profesor">Profesorado</option>
+<option value="estudiante">Alumnado</option>
+</select>
+</div>
+<!-- Search Folio -->
+<div class="bg-surface-container-low px-space-sm py-1.5 rounded-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">search</span>
+<input class="bg-transparent font-label-md text-label-md text-on-surface outline-none placeholder:text-on-surface-variant/60 w-36" id="searchInput" placeholder="Buscar folio o puesto..." type="text"/>
+</div>
+</div>
+</div>
+<!-- Audit Records Table -->
+<div class="overflow-x-auto w-full">
+<table class="w-full text-left font-body-md text-body-md border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-space-sm px-space-md rounded-l-lg">Folio Ticket</th>
+<th class="py-space-sm px-space-md">Fecha & Bloque (2.0h)</th>
+<th class="py-space-sm px-space-md">Usuario / Rol</th>
+<th class="py-space-sm px-space-md">Puesto Asignado</th>
+<th class="py-space-sm px-space-md">Afirmación Encargado</th>
+<th class="py-space-sm px-space-md">Calidad al Cierre</th>
+<th class="py-space-sm px-space-md rounded-r-lg text-right">Auditoría</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-low" id="auditTableBody">
+<!-- Row 1: Profesor Arispe -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-md font-mono-code text-mono-code font-medium text-primary">
+                TCK-2025-0891
+              </td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Hoy, 24 Oct</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">10:00 - 12:00 hrs <span class="text-tertiary">(2.0h)</span></div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-7 h-7 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-label-sm text-label-sm font-semibold">DA</div>
+<div>
+<div class="font-medium text-on-surface leading-tight">Prof. Dr. Arispe</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Investigador Titular</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="inline-flex items-center gap-1.5 px-2 py-1 rounded bg-surface-container text-on-surface font-mono-code text-mono-code font-semibold">
+<span class="material-symbols-outlined text-[15px] text-primary">desktop_windows</span>
+                  WS-ALPHA-01
+                </div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Clúster CUDA A100</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+                  Aprobado por Encargado
+                </span>
+<div class="font-label-sm text-label-sm text-on-surface-variant/80 mt-0.5">Val: Ing. Valenzuela</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  Excelente (100%)
+                </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-2 py-1 rounded hover:bg-surface-container-high text-primary font-label-md text-label-md transition-colors inline-flex items-center gap-0.5" onclick="toggleDetails('det-0891')">
+<span>Ver Acta</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+</td>
+</tr>
+<!-- Row 1 Details Accordion -->
+<tr class="hidden bg-surface-container-low/40" id="det-0891">
+<td class="p-space-md" colspan="7">
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col md:flex-row justify-between gap-space-md">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Firma Criptográfica Local</span>
+<p class="font-mono-code text-mono-code text-on-surface select-all">SHA256: 7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Propósito: Cálculo de Dinámica Molecular para Tesis Doctoral. Sin anomalías de hardware.</p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<span class="inline-flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-emerald-600">check_circle</span> Checklist físico OK
+                    </span>
+<span class="inline-flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-emerald-600">check_circle</span> Borrado seguro ejecutado
+                    </span>
+</div>
+</div>
+</td>
+</tr>
+<!-- Row 2: Estudiante Mariana T. -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-md font-mono-code text-mono-code font-medium text-primary">
+                TCK-2025-0890
+              </td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Hoy, 24 Oct</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">08:00 - 10:00 hrs <span class="text-tertiary">(2.0h)</span></div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-7 h-7 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-label-sm text-label-sm font-semibold">MT</div>
+<div>
+<div class="font-medium text-on-surface leading-tight">Mariana T.</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Estudiante Pregrado (Ing. Sistemas)</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="inline-flex items-center gap-1.5 px-2 py-1 rounded bg-surface-container text-on-surface font-mono-code text-mono-code font-semibold">
+<span class="material-symbols-outlined text-[15px] text-primary">desktop_windows</span>
+                  WS-BETA-04
+                </div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Estación GPU RTX 4090</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                  Finalizado • Concluida
+                </span>
+<div class="font-label-sm text-label-sm text-on-surface-variant/80 mt-0.5">Salida confirmada 09:58</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                  Bueno (Alerta periférico)
+                </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-2 py-1 rounded hover:bg-surface-container-high text-primary font-label-md text-label-md transition-colors inline-flex items-center gap-0.5" onclick="toggleDetails('det-0890')">
+<span>Ver Acta</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+</td>
+</tr>
+<!-- Row 2 Details Accordion -->
+<tr class="hidden bg-surface-container-low/40" id="det-0890">
+<td class="p-space-md" colspan="7">
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col md:flex-row justify-between gap-space-md">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Nota de Cierre & Notificación</span>
+<p class="font-mono-code text-mono-code text-on-surface select-all">SHA256: 3c59dc048e8850243be8079a5c74d079fa44f427b241283994137b0c113f9d9b</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Reporte post-sesión: Puerto USB-C frontal presentó falso contacto leve. Canalizado a soporte técnico.</p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<span class="inline-flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-amber-600">warning</span> Incidencia #INC-1092 registrada
+                    </span>
+</div>
+</div>
+</td>
+</tr>
+<!-- Row 3: Estudiante Carlos Mendoza (Denegado) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-md font-mono-code text-mono-code font-medium text-primary">
+                TCK-2025-0889
+              </td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Ayer, 23 Oct</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">16:00 - 18:00 hrs <span class="text-tertiary">(2.0h)</span></div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-7 h-7 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center font-label-sm text-label-sm font-semibold">CM</div>
+<div>
+<div class="font-medium text-on-surface leading-tight">Carlos Mendoza R.</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Estudiante Posgrado</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="inline-flex items-center gap-1.5 px-2 py-1 rounded bg-surface-container text-on-surface font-mono-code text-mono-code font-semibold opacity-70">
+<span class="material-symbols-outlined text-[15px] text-outline">desktop_windows</span>
+                  WS-GAMMA-02
+                </div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Estación Render 3D</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+                  Denegado por Encargado
+                </span>
+<div class="font-label-sm text-label-sm text-on-surface-variant/80 mt-0.5">Causa: Conflicto de mantenimiento preventivo</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+                  No Iniciada (N/A)
+                </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-2 py-1 rounded hover:bg-surface-container-high text-primary font-label-md text-label-md transition-colors inline-flex items-center gap-0.5" onclick="toggleDetails('det-0889')">
+<span>Ver Acta</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+</td>
+</tr>
+<!-- Row 3 Details Accordion -->
+<tr class="hidden bg-surface-container-low/40" id="det-0889">
+<td class="p-space-md" colspan="7">
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Motivo Documentado en Sesión</span>
+<p class="font-body-md text-body-md text-on-surface mt-1">
+                    La máquina WS-GAMMA-02 fue puesta en cuarentena para actualización de firmware de control de ventiladores térmicos. La reserva no pudo completarse; el alumno fue reasignado a sala auxiliar sin afectación de horas.
+                  </p>
+</div>
+</td>
+</tr>
+<!-- Row 4: Prof. Elena Morales -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-md font-mono-code text-mono-code font-medium text-primary">
+                TCK-2025-0888
+              </td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">Ayer, 23 Oct</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">14:00 - 16:00 hrs <span class="text-tertiary">(2.0h)</span></div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-7 h-7 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-label-sm text-label-sm font-semibold">EM</div>
+<div>
+<div class="font-medium text-on-surface leading-tight">Dra. Elena Morales</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Cátedra de Bioinformática</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="inline-flex items-center gap-1.5 px-2 py-1 rounded bg-surface-container text-on-surface font-mono-code text-mono-code font-semibold">
+<span class="material-symbols-outlined text-[15px] text-primary">desktop_windows</span>
+                  WS-ALPHA-03
+                </div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Servidor Memoria Masiva 256GB</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+                  Aprobado • Finalizado
+                </span>
+<div class="font-label-sm text-label-sm text-on-surface-variant/80 mt-0.5">Val: Ing. Valenzuela</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  Excelente (100%)
+                </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="px-2 py-1 rounded hover:bg-surface-container-high text-primary font-label-md text-label-md transition-colors inline-flex items-center gap-0.5" onclick="toggleDetails('det-0888')">
+<span>Ver Acta</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+</td>
+</tr>
+<!-- Row 4 Details Accordion -->
+<tr class="hidden bg-surface-container-low/40" id="det-0888">
+<td class="p-space-md" colspan="7">
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Inspección de Cierre</span>
+<p class="font-body-md text-body-md text-on-surface mt-1">
+                    Sesión completada en tiempo estricto de 2.0h. Almacenamiento temporal vaciado según directiva interna de privacidad ISO/IEC 27001 institucional.
+                  </p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Pagination / Ledger Footer -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-md text-on-surface-variant font-body-sm text-body-sm">
+<span class="font-mono-code text-mono-code">Mostrando 4 de 1,428 registros certificados [HASH_OK]</span>
+<div class="flex items-center gap-space-xs">
+<button class="px-3 py-1 rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm" disabled="">Anterior</button>
+<button class="px-3 py-1 rounded bg-primary text-on-primary font-label-sm text-label-sm">1</button>
+<button class="px-3 py-1 rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm">2</button>
+<button class="px-3 py-1 rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm">3</button>
+<span class="px-1 text-outline">...</span>
+<button class="px-3 py-1 rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm">72</button>
+<button class="px-3 py-1 rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm">Siguiente</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 2: Post-Session Failure Reports & Maintenance Resolution -->
+<div class="w-full px-gutter-lg pb-space-lg">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Incident & Quality Ticket Feed (8 cols) -->
+<div class="lg:col-span-8 bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col">
+<div class="flex items-center justify-between pb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<div>
+<h2 class="font-title-md text-title-md text-on-surface">Bitácora de Incidencias Post-Sesión & Mantenimiento</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Reportes levantados por usuarios al desocupar y resoluciones técnicas validadas.</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-medium">
+            3 Incidencias en 48 hrs
+          </span>
+</div>
+<div class="space-y-space-md">
+<!-- Incident Card 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col sm:flex-row items-start justify-between gap-space-md">
+<div class="space-y-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-mono-code text-mono-code font-semibold text-primary">INC-1092</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">WS-BETA-04</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Post-Sesión TCK-2025-0890 (Mariana T.)</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Falso contacto en conector USB-C frontal (Panel IO)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                El usuario reportó desconexión intermitente al conectar disco NVMe externo para volcado de dataset.
+              </p>
+<div class="flex flex-wrap items-center gap-x-space-md gap-y-1 pt-1 font-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">person</span>
+                  Técnico: Téc. R. Salgado (Soporte Hardware)
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">event_available</span>
+                  Resolución: 24 Oct 2025 - 11:15 hrs
+                </span>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-end gap-1">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">done_all</span> Resuelto
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Arnés re-ajustado</span>
+</div>
+</div>
+<!-- Incident Card 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col sm:flex-row items-start justify-between gap-space-md">
+<div class="space-y-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-mono-code text-mono-code font-semibold text-primary">INC-1091</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">WS-GAMMA-02</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Diagnóstico Preventivo Interno</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Alerta térmica en GPU Render Secundario (>84°C)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Filtro de admisión con acumulación de polvo y desajuste de curva PWM de ventilación por script de usuario.
+              </p>
+<div class="flex flex-wrap items-center gap-x-space-md gap-y-1 pt-1 font-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">person</span>
+                  Técnico: Ing. Valenzuela (Encargado)
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">event_available</span>
+                  Resolución: 23 Oct 2025 - 19:40 hrs
+                </span>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-end gap-1">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">done_all</span> Resuelto
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Perfil UEFI restaurado</span>
+</div>
+</div>
+<!-- Incident Card 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col sm:flex-row items-start justify-between gap-space-md">
+<div class="space-y-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-mono-code text-mono-code font-semibold text-primary">INC-1090</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">ACC-KEYB-12</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Puesto WS-ALPHA-02</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Tecla de control izquierda atascada en teclado mecánico</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Reportado al finalizar bloque matutino. Switch lubricado y verificado en suite de pulsación.
+              </p>
+<div class="flex flex-wrap items-center gap-x-space-md gap-y-1 pt-1 font-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">person</span>
+                  Técnico: Téc. R. Salgado
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">event_available</span>
+                  Resolución: 22 Oct 2025 - 17:00 hrs
+                </span>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-end gap-1">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">done_all</span> Resuelto
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Reemplazo de switch</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Secure Internal Export Voucher & Non-Public Compliance Shield (4 cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<!-- Perforated Ticket Card Style for Institutional Export -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col relative">
+<!-- Ticket Upper Zone -->
+<div class="p-space-lg bg-surface-container-lowest flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Póliza de Exportación</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-mono-code text-mono-code">
+                VAULT-INTERNAL
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Copia Certificada para Coordinación</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Emisión de bitácora firmada con clave PGP de laboratorio para entrega física o respaldo en almacenamiento frío departamental.
+            </p>
+<div class="p-space-sm rounded bg-surface-container-low font-mono-code text-mono-code text-on-surface space-y-1">
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Período:</span>
+<span>OCT-2025-W4</span>
+</div>
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Cifrado:</span>
+<span>AES-256-GCM</span>
+</div>
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Hash Checksum:</span>
+<span class="text-primary truncate ml-2">e3b0c44298fc1c...</span>
+</div>
+</div>
+</div>
+<!-- Perforation Divider with Physical Notches -->
+<div class="relative w-full flex items-center justify-center my-0">
+<!-- Left notch cutting into card -->
+<div class="absolute -left-3 w-6 h-6 rounded-full bg-surface shadow-inner"></div>
+<!-- Perforation line -->
+<div class="w-full mx-4 border-t-2 border-dashed border-outline-variant/60"></div>
+<!-- Right notch cutting into card -->
+<div class="absolute -right-3 w-6 h-6 rounded-full bg-surface shadow-inner"></div>
+</div>
+<!-- Ticket Lower Zone: Barcode + Strict Policy Rule -->
+<div class="p-space-lg bg-surface-container-lowest flex flex-col items-center text-center gap-space-sm">
+<!-- Micro Monospace Barcode Simulation SVG -->
+<svg class="w-full h-12 text-on-surface" fill="currentColor" viewbox="0 0 280 48">
+<!-- Barcode stripes -->
+<rect height="48" width="3" x="0" y="0"></rect>
+<rect height="48" width="2" x="5" y="0"></rect>
+<rect height="48" width="5" x="10" y="0"></rect>
+<rect height="48" width="2" x="18" y="0"></rect>
+<rect height="48" width="4" x="23" y="0"></rect>
+<rect height="48" width="6" x="30" y="0"></rect>
+<rect height="48" width="2" x="39" y="0"></rect>
+<rect height="48" width="3" x="44" y="0"></rect>
+<rect height="48" width="5" x="50" y="0"></rect>
+<rect height="48" width="2" x="58" y="0"></rect>
+<rect height="48" width="7" x="63" y="0"></rect>
+<rect height="48" width="3" x="73" y="0"></rect>
+<rect height="48" width="2" x="79" y="0"></rect>
+<rect height="48" width="6" x="84" y="0"></rect>
+<rect height="48" width="4" x="93" y="0"></rect>
+<rect height="48" width="2" x="100" y="0"></rect>
+<rect height="48" width="5" x="105" y="0"></rect>
+<rect height="48" width="3" x="113" y="0"></rect>
+<rect height="48" width="2" x="119" y="0"></rect>
+<rect height="48" width="8" x="124" y="0"></rect>
+<rect height="48" width="2" x="135" y="0"></rect>
+<rect height="48" width="4" x="140" y="0"></rect>
+<rect height="48" width="5" x="147" y="0"></rect>
+<rect height="48" width="3" x="155" y="0"></rect>
+<rect height="48" width="2" x="161" y="0"></rect>
+<rect height="48" width="6" x="166" y="0"></rect>
+<rect height="48" width="4" x="175" y="0"></rect>
+<rect height="48" width="2" x="182" y="0"></rect>
+<rect height="48" width="7" x="187" y="0"></rect>
+<rect height="48" width="3" x="197" y="0"></rect>
+<rect height="48" width="4" x="203" y="0"></rect>
+<rect height="48" width="2" x="210" y="0"></rect>
+<rect height="48" width="5" x="215" y="0"></rect>
+<rect height="48" width="3" x="223" y="0"></rect>
+<rect height="48" width="6" x="229" y="0"></rect>
+<rect height="48" width="2" x="238" y="0"></rect>
+<rect height="48" width="4" x="243" y="0"></rect>
+<rect height="48" width="5" x="250" y="0"></rect>
+<rect height="48" width="2" x="258" y="0"></rect>
+<rect height="48" width="7" x="263" y="0"></rect>
+<rect height="48" width="4" x="273" y="0"></rect>
+</svg>
+<span class="font-mono-code text-mono-code text-on-surface-variant tracking-widest block -mt-1">
+              *CONFIDENTIAL-NODE-4402-2025*
+            </span>
+<button class="w-full py-space-sm bg-primary text-on-primary rounded-lg font-label-md text-label-md hover:bg-primary-container transition-colors shadow-sm flex items-center justify-center gap-space-xs mt-space-xs" onclick="handleDownloadAudit()">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Generar Archivo Cifrado</span>
+</button>
+</div>
+</div>
+<!-- Strict Business Rule Box: No Public Records -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">lock_person</span>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-semibold block">
+              Garantía de Confidencialidad
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Los registros son estrictamente privados e institucionales; no accesibles públicamente ni compartidos a redes externas bajo la normativa universitaria vigente de protección de datos de investigación.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Notification Toast Container -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none" id="toastNotification">
+<div class="bg-surface-container-lowest text-on-surface p-space-md rounded-xl shadow-xl flex items-center gap-space-md">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">lock</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md leading-tight" id="toastTitle">Archivo Cifrado</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="toastMsg">Exportación descargada con hash de integridad.</span>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function toggleDetails(rowId) {
+    const row = document.getElementById(rowId);
+    if (!row) return;
+    if (row.classList.contains('hidden')) {
+      row.classList.remove('hidden');
+    } else {
+      row.classList.add('hidden');
+    }
+  }
+
+  function showToast(title, message) {
+    const toast = document.getElementById('toastNotification');
+    const toastTitle = document.getElementById('toastTitle');
+    const toastMsg = document.getElementById('toastMsg');
+    
+    toastTitle.textContent = title;
+    toastMsg.textContent = message;
+
+    toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 3800);
+  }
+
+  function handleDownloadAudit() {
+    showToast('Exportación Segura Creada', 'Copia institucional encriptada generada para Coordinación.');
+  }
+
+  document.getElementById('btnExport')?.addEventListener('click', () => {
+    showToast('Auditoría Completa Exportada', 'Archivo cifrado .enc generado para el nodo local 4402.');
+  });
+
+  // Simple client-side search simulation for table
+  document.getElementById('searchInput')?.addEventListener('input', function(e) {
+    const query = e.target.value.toLowerCase();
+    const rows = document.querySelectorAll('#auditTableBody > tr:not([id^="det-"])');
+    rows.forEach(row => {
+      const text = row.innerText.toLowerCase();
+      if (text.includes(query)) {
+        row.style.display = '';
+      } else {
+        row.style.display = 'none';
+        const next = row.nextElementSibling;
+        if (next && next.id && next.id.startsWith('det-')) {
+          next.classList.add('hidden');
+        }
+      }
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low mt-margin-lg"><div class="w-full px-gutter-lg py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-md"><span>© 2025 LabReserve - Plataforma de Infraestructura & Cómputo Universitario</span><span class="hidden md:inline text-outline-variant">•</span><span class="hidden md:inline">Sesiones estrictas de 2.0 hrs inamovibles</span></div><div class="flex items-center gap-space-lg font-label-sm text-label-sm"><span class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span>Sistemas Operativos 100%</span><span class="text-outline-variant">|</span><span>Mesa de Ayuda Técnica Ext. 4402</span></div></div></footer></body></html>

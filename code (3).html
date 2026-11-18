@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed": "#e5deff", "primary-fixed": "#e9ddff", "surface-bright": "#f9f9ff", "secondary-fixed-dim": "#d3bbff", "on-tertiary-container": "#fffbff", "on-error-container": "#93000a", "surface-variant": "#dce2f3", "on-tertiary-fixed": "#1b1735", "primary": "#6b38d4", "surface-container": "#e7eefe", "on-tertiary": "#ffffff", "surface-container-high": "#e2e8f8", "error-container": "#ffdad6", "tertiary-fixed-dim": "#c8c2e9", "on-surface": "#151c27", "on-tertiary-fixed-variant": "#474363", "primary-fixed-dim": "#d0bcff", "inverse-surface": "#2a313d", "secondary": "#6f46b9", "surface": "#f9f9ff", "primary-container": "#8455ef", "background": "#f9f9ff", "surface-tint": "#6d3bd7", "surface-container-lowest": "#ffffff", "secondary-fixed": "#ebdcff", "on-secondary-fixed-variant": "#572ba0", "inverse-on-surface": "#ebf1ff", "outline": "#7b7486", "on-secondary-fixed": "#260059", "on-primary-fixed-variant": "#5516be", "error": "#ba1a1a", "tertiary": "#5d587a", "on-background": "#151c27", "surface-dim": "#d3daea", "secondary-container": "#b188ff", "on-surface-variant": "#494454", "surface-container-low": "#f0f3ff", "outline-variant": "#cbc3d7", "on-primary-fixed": "#23005c", "on-secondary": "#ffffff", "inverse-primary": "#d0bcff", "on-primary": "#ffffff", "surface-container-highest": "#dce2f3", "tertiary-container": "#757093", "on-primary-container": "#fffbff", "on-error": "#ffffff", "on-secondary-container": "#44118d" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "gutter": "1rem", "gutter-lg": "2rem", "space-md": "1rem", "margin-md": "2rem", "space-lg": "1.5rem", "margin": "1rem", "margin-lg": "3rem", "space-sm": "0.5rem", "space-xl": "2rem", "gutter-md": "1.5rem", "space-xs": "0.25rem" }, "fontFamily": { "body-md": ["Geist"], "headline-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-sm": ["Geist"], "body-lg": ["Geist"], "headline-xl-mobile": ["Plus Jakarta Sans"], "label-md": ["Geist"], "label-sm": ["Geist"], "headline-md": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "mono-code": ["Geist"] }, "fontSize": { "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-xl-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "mono-code": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(76,29,149,0.04)]"><div class="h-16 w-full px-gutter-lg flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><img alt="LabReserve Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAaYOuILgRGGQaj0QCi2WpKSl7cC2ogrYsx0By2tzHjTyupWlu0Npz7FoojqjRZHZyZ9J3itnT3dzdxxEMwWQDA-NlJoC2bb7nZif-Q1jOmIxilXp1SwJRPCsYP0gZGnCMO5phPky7cCTYZQod1dWV8ZSoAazknWw3g7lurCyvXJfQTshNJ83B3QoGGTc2iikessOttnHiECID6bsO0U6_xEeO-qdxuDvbGbueQXHL5"/><div class="flex flex-col"><span class="font-title-md text-title-md text-on-surface tracking-tight leading-none">LabReserve</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Centro de Cómputo</span></div></div><nav class="hidden lg:flex items-center gap-space-xs bg-surface-container-low px-space-xs py-space-xs rounded-full" data-active-classes="bg-primary-container text-on-primary-container font-medium shadow-sm"><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="reservar-ticket" href="#">Reservar & Ticket</a><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="gestion-del-encargado" href="#">Gestión del Encargado</a><a aria-current="page" class="px-space-md py-space-xs rounded-full transition-all bg-primary-container text-on-primary-container font-medium shadow-sm" data-path="esquema-del-laboratorio" href="#">Esquema del Laboratorio</a><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="registro-privado" href="#">Registro Privado</a></nav><div class="flex items-center gap-space-md"><div class="relative flex items-center bg-surface-container-lowest px-space-sm py-space-xs rounded-lg shadow-[0_1px_4px_rgba(76,29,149,0.04)]"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mr-space-xs hidden sm:inline">Rol:</span><select class="bg-transparent font-label-md text-label-md text-on-surface font-medium outline-none cursor-pointer pr-space-xs"><option value="estudiante">Estudiante</option><option value="profesor">Profesor</option><option value="encargado">Encargado de Lab</option></select></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<div class="w-full px-gutter-lg py-space-lg flex flex-col gap-space-xl">
+<!-- Top Action Bar & Live Cluster Status -->
+<div class="flex flex-col xl:flex-row items-start xl:items-center justify-between gap-space-lg">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">hub</span>
+<span class="font-mono-code text-mono-code uppercase tracking-widest">Cluster HPC Alfa • Sala 302-B</span>
+</div>
+<div class="flex items-baseline gap-space-md flex-wrap">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Esquema General de Puestos</h1>
+<span class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Telemetría en Vivo (24 Estaciones)
+          </span>
+</div>
+</div>
+<!-- Quick Metrics Summary Pills -->
+<div class="flex flex-wrap items-center gap-space-sm w-full xl:w-auto">
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-xs rounded-xl shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+<div class="flex flex-col">
+<span class="font-mono-code text-mono-code text-on-surface-variant">Libres</span>
+<span class="font-title-md text-title-md text-on-surface leading-tight" id="count-libres">14</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-xs rounded-xl shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<div class="flex flex-col">
+<span class="font-mono-code text-mono-code text-on-surface-variant">En Sesión</span>
+<span class="font-title-md text-title-md text-on-surface leading-tight" id="count-sesion">6</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-xs rounded-xl shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+<div class="flex flex-col">
+<span class="font-mono-code text-mono-code text-on-surface-variant">En Espera</span>
+<span class="font-title-md text-title-md text-on-surface leading-tight">2</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-xs rounded-xl shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-outline"></span>
+<div class="flex flex-col">
+<span class="font-mono-code text-mono-code text-on-surface-variant">Bloqueados</span>
+<span class="font-title-md text-title-md text-on-surface leading-tight">2</span>
+</div>
+</div>
+<button class="ml-auto xl:ml-space-md flex items-center gap-space-xs bg-primary hover:bg-secondary text-on-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md transition-all shadow-sm" onclick="document.getElementById('report-panel').classList.toggle('hidden');">
+<span class="material-symbols-outlined text-[18px]">build_circle</span>
+<span>Finalizar Sesión & Reportar</span>
+</button>
+</div>
+</div>
+<!-- Main Grid Layout & Sticky Sidebar -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-start">
+<!-- Primary Floorplan Matrix (8 Columns) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Interactive Canvas Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm relative overflow-hidden">
+<!-- Floor Header & Orientation Badge -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-md pb-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">grid_view</span>
+</span>
+<div>
+<h2 class="font-title-md text-title-md text-on-surface">Distribución Física de Islas</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Haz clic sobre un puesto para inspeccionar hardware o asociarlo al reporte de cierre</p>
+</div>
+</div>
+<!-- Lectern / Teacher desk pointer -->
+<div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-md bg-surface-container text-on-surface-variant font-mono-code text-mono-code self-start sm:self-auto">
+<span class="material-symbols-outlined text-[16px]">co_present</span>
+<span>Estrado / Proyector Frontal</span>
+</div>
+</div>
+<!-- Room Visual Schema: 4 Islands of 6 PCs each (24 Workstations) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg pt-space-sm">
+<!-- Isla A: Workstations PC-01 to PC-06 -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="font-semibold text-secondary">ISLA A • Computación Visual</span>
+<span class="font-mono-code">RTX 4090 / 64GB</span>
+</div>
+<div class="grid grid-cols-3 gap-space-sm">
+<!-- PC-01: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-01', 'Libre', 'Intel i9 • RTX 4090 • 64GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-01</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-02: Sesion Activa -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-primary-fixed text-on-primary-fixed hover:brightness-95 transition-all shadow-sm flex flex-col justify-between h-28 relative overflow-hidden" onclick="selectStation('PC-02', 'En Sesión', 'Intel i9 • RTX 4090 • 64GB RAM', '58 min restantes', 'C. Valenzuela (219482)')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold">PC-02</span>
+<span class="material-symbols-outlined text-[16px] text-primary">timer</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wide opacity-80">En Sesión</span>
+<span class="font-mono-code text-mono-code font-bold text-primary" data-timer="3480">58:00 min</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-medium">En curso</span>
+</button>
+<!-- PC-03: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-03', 'Libre', 'Intel i9 • RTX 4090 • 64GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-03</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-04: Sesion Alerta Critica (< 10 min) -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-secondary-fixed text-on-secondary-fixed hover:brightness-95 transition-all shadow-sm flex flex-col justify-between h-28 relative animate-pulse" onclick="selectStation('PC-04', 'Crítico < 10m', 'Intel i9 • RTX 4090 • 64GB RAM', '08:24 min restantes', 'A. Guzmán (Posgrado IA)')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold">PC-04</span>
+<span class="material-symbols-outlined text-[16px] text-error">warning</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-error font-bold">Cierre Inminente</span>
+<span class="font-mono-code text-mono-code font-bold text-error" data-timer="504">08:24 min</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant">Sin prórroga</span>
+</button>
+<!-- PC-05: En Espera (Fila Virtual) -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-05', 'En Espera', 'Intel i9 • RTX 4090 • 64GB RAM', 'Turno 1 asignado', 'Esperando check-in')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-05</span>
+<span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-amber-800 font-semibold">Fila Virtual</span>
+<span class="font-mono-code text-mono-code text-on-surface-variant">Check-in: 4m</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Asignado</span>
+</button>
+<!-- PC-06: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-06', 'Libre', 'Intel i9 • RTX 4090 • 64GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-06</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+</div>
+</div>
+<!-- Isla B: Workstations PC-07 to PC-12 -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="font-semibold text-secondary">ISLA B • Simulación & Render</span>
+<span class="font-mono-code">RTX A5000 / 64GB</span>
+</div>
+<div class="grid grid-cols-3 gap-space-sm">
+<!-- PC-07: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-07', 'Libre', 'Ryzen 9 • RTX A5000 • 64GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-07</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-08: Sesion Activa -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-primary-fixed text-on-primary-fixed hover:brightness-95 transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-08', 'En Sesión', 'Ryzen 9 • RTX A5000 • 64GB RAM', '42 min restantes', 'M. Soto (Lab Biofísica)')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold">PC-08</span>
+<span class="material-symbols-outlined text-[16px] text-primary">timer</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wide opacity-80">En Sesión</span>
+<span class="font-mono-code text-mono-code font-bold text-primary" data-timer="2520">42:00 min</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-medium">En curso</span>
+</button>
+<!-- PC-09: Bloqueado por Mantenimiento -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-high opacity-85 hover:opacity-100 transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-09', 'Bloqueado', 'Ryzen 9 • RTX A5000 • 64GB RAM', 'Inactivo', 'Ventilador Chasis #2')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface-variant">PC-09</span>
+<div class="flex items-center gap-0.5 text-error">
+<span class="material-symbols-outlined text-[16px]">build</span>
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-error font-semibold">Mantenimiento</span>
+<span class="font-mono-code text-mono-code text-on-surface-variant">Bloqueado</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ticket #9021</span>
+</button>
+<!-- PC-10: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-10', 'Libre', 'Ryzen 9 • RTX A5000 • 64GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-10</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-11: Sesión Activa -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-primary-fixed text-on-primary-fixed hover:brightness-95 transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-11', 'En Sesión', 'Ryzen 9 • RTX A5000 • 64GB RAM', '74 min restantes', 'K. Rojas (Ing. Software)')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold">PC-11</span>
+<span class="material-symbols-outlined text-[16px] text-primary">timer</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wide opacity-80">En Sesión</span>
+<span class="font-mono-code text-mono-code font-bold text-primary" data-timer="4440">74:00 min</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-medium">En curso</span>
+</button>
+<!-- PC-12: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-12', 'Libre', 'Ryzen 9 • RTX A5000 • 64GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-12</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+</div>
+</div>
+<!-- Isla C: Workstations PC-13 to PC-18 -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="font-semibold text-secondary">ISLA C • Análisis de Datos & Bio</span>
+<span class="font-mono-code">Core i7 / 32GB</span>
+</div>
+<div class="grid grid-cols-3 gap-space-sm">
+<!-- PC-13: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-13', 'Libre', 'Core i7 • RTX 4070 • 32GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-13</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-14: En Espera (Fila) -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-14', 'En Espera', 'Core i7 • RTX 4070 • 32GB RAM', 'Turno 2 asignado', 'Esperando check-in')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-14</span>
+<span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-amber-800 font-semibold">Fila Virtual</span>
+<span class="font-mono-code text-mono-code text-on-surface-variant">Check-in: 2m</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Asignado</span>
+</button>
+<!-- PC-15: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-15', 'Libre', 'Core i7 • RTX 4070 • 32GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-15</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-16: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-16', 'Libre', 'Core i7 • RTX 4070 • 32GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-16</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-17: Sesion Activa -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-primary-fixed text-on-primary-fixed hover:brightness-95 transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-17', 'En Sesión', 'Core i7 • RTX 4070 • 32GB RAM', '19 min restantes', 'H. Beltrán (Maestría Datamining)')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold">PC-17</span>
+<span class="material-symbols-outlined text-[16px] text-primary">timer</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wide opacity-80">En Sesión</span>
+<span class="font-mono-code text-mono-code font-bold text-primary" data-timer="1140">19:00 min</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-medium">En curso</span>
+</button>
+<!-- PC-18: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-18', 'Libre', 'Core i7 • RTX 4070 • 32GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-18</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+</div>
+</div>
+<!-- Isla D: Workstations PC-19 to PC-24 -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="font-semibold text-secondary">ISLA D • Computación Cuántica / Simuladores</span>
+<span class="font-mono-code">Xeon W-2200 / 128GB</span>
+</div>
+<div class="grid grid-cols-3 gap-space-sm">
+<!-- PC-19: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-19', 'Libre', 'Intel Xeon • RTX 4090 • 128GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-19</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-20: Sesion Alerta Critica (< 10 min) -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-secondary-fixed text-on-secondary-fixed hover:brightness-95 transition-all shadow-sm flex flex-col justify-between h-28 relative animate-pulse" onclick="selectStation('PC-20', 'Crítico < 10m', 'Intel Xeon • RTX 4090 • 128GB RAM', '04:12 min restantes', 'D. Navarro (Tesis Cuántica)')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold">PC-20</span>
+<span class="material-symbols-outlined text-[16px] text-error">warning</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-error font-bold">Cierre Inminente</span>
+<span class="font-mono-code text-mono-code font-bold text-error" data-timer="252">04:12 min</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant">Sin prórroga</span>
+</button>
+<!-- PC-21: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-21', 'Libre', 'Intel Xeon • RTX 4090 • 128GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-21</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-22: Bloqueado -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-high opacity-85 hover:opacity-100 transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-22', 'Bloqueado', 'Intel Xeon • RTX 4090 • 128GB RAM', 'Inactivo', 'Pantalla DP sin señal')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface-variant">PC-22</span>
+<div class="flex items-center gap-0.5 text-error">
+<span class="material-symbols-outlined text-[16px]">build</span>
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-error font-semibold">Mantenimiento</span>
+<span class="font-mono-code text-mono-code text-on-surface-variant">Bloqueado</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ticket #8994</span>
+</button>
+<!-- PC-23: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-23', 'Libre', 'Intel Xeon • RTX 4090 • 128GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-23</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+<!-- PC-24: Libre -->
+<button class="station-card group text-left p-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-bright transition-all shadow-sm flex flex-col justify-between h-28 relative" onclick="selectStation('PC-24', 'Libre', 'Intel Xeon • RTX 4090 • 128GB RAM', '0 min', '100%')">
+<div class="flex items-center justify-between w-full">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PC-24</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-emerald-800 font-medium">Disponible</span>
+<span class="font-mono-code text-body-sm text-on-surface-variant">Libre</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+                    Inspeccionar <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Subtle bottom architectural guideline -->
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant font-mono-code text-mono-code">
+<span class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px]">door_front</span>
+              Puerta Principal / Acceso con Credencial RFID
+            </span>
+<span>Área Climatizada 19.5°C • Puntos de Red Cat 6A</span>
+</div>
+</div>
+<!-- Legend Card: Simplified States & Quality Criteria -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<span class="font-title-md text-title-md text-on-surface whitespace-nowrap">Leyenda de Estados:</span>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-md w-full">
+<div class="flex items-center gap-space-xs">
+<span class="w-3.5 h-3.5 rounded-full bg-emerald-500"></span>
+<div class="flex flex-col leading-tight">
+<span class="font-label-md text-label-md text-on-surface">Disponible</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Libre para reserva</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3.5 h-3.5 rounded-full bg-primary"></span>
+<div class="flex flex-col leading-tight">
+<span class="font-label-md text-label-md text-on-surface">Sesión Activa</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Cronómetro en curso</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3.5 h-3.5 rounded-full bg-amber-400"></span>
+<div class="flex flex-col leading-tight">
+<span class="font-label-md text-label-md text-on-surface">Fila Virtual</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Turno asignado en espera</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="flex items-center text-outline">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</div>
+<div class="flex flex-col leading-tight">
+<span class="font-label-md text-label-md text-on-surface">Mantenimiento</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bloqueo por incidente</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Active Sessions Countdown Monitor -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">hourglass_top</span>
+</span>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface">Monitor de Tiempo Límite de Sesión</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Política universitaria: sesiones estrictas de 2.0 horas sin posibilidad de prórroga.</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-error bg-error-container text-on-error-container px-space-sm py-space-xs rounded-full font-bold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+              Alerta Roja a ≤ 10 min
+            </span>
+</div>
+<!-- Active Cards Row / Carousel -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-space-md">
+<!-- Warning Card PC-04 -->
+<div class="p-space-md rounded-xl bg-error-container/30 flex flex-col justify-between gap-space-sm relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-mono-code text-mono-code font-bold text-on-error-container">PUESTO PC-04</span>
+<span class="px-space-xs py-0.5 bg-error text-on-error rounded text-label-sm font-bold animate-pulse">ALERTA 10M</span>
+</div>
+<div>
+<div class="text-[26px] font-bold font-headline-md text-error tracking-tight" id="live-timer-pc04">08:24</div>
+<div class="w-full bg-surface-variant h-1.5 rounded-full overflow-hidden mt-1">
+<div class="bg-error h-full rounded-full" style="width: 92%;"></div>
+</div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Usuario: A. Guzmán</span>
+<span class="text-error font-medium">Cierre forzoso</span>
+</div>
+</div>
+<!-- Warning Card PC-20 -->
+<div class="p-space-md rounded-xl bg-error-container/30 flex flex-col justify-between gap-space-sm relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-mono-code text-mono-code font-bold text-on-error-container">PUESTO PC-20</span>
+<span class="px-space-xs py-0.5 bg-error text-on-error rounded text-label-sm font-bold animate-pulse">ALERTA 10M</span>
+</div>
+<div>
+<div class="text-[26px] font-bold font-headline-md text-error tracking-tight" id="live-timer-pc20">04:12</div>
+<div class="w-full bg-surface-variant h-1.5 rounded-full overflow-hidden mt-1">
+<div class="bg-error h-full rounded-full" style="width: 96%;"></div>
+</div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Usuario: D. Navarro</span>
+<span class="text-error font-medium">Cierre forzoso</span>
+</div>
+</div>
+<!-- Standard Card PC-08 -->
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col justify-between gap-space-sm relative">
+<div class="flex items-center justify-between">
+<span class="font-mono-code text-mono-code font-bold text-on-surface">PUESTO PC-08</span>
+<span class="px-space-xs py-0.5 bg-primary/20 text-primary rounded text-label-sm font-semibold">REGULAR</span>
+</div>
+<div>
+<div class="text-[26px] font-bold font-headline-md text-primary tracking-tight">42:00</div>
+<div class="w-full bg-surface-variant h-1.5 rounded-full overflow-hidden mt-1">
+<div class="bg-primary h-full rounded-full" style="width: 65%;"></div>
+</div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Usuario: M. Soto</span>
+<span>Restante regular</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Detail & Fault Reporting Ticket (4 Columns) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg" id="report-panel">
+<!-- Physical Ticket Voucher: Fault Report on Session End -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden relative">
+<!-- Upper Stub: Header & Active Selection Summary -->
+<div class="p-space-lg flex flex-col gap-space-sm bg-surface-container-low">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-space-xs font-mono-code text-mono-code uppercase tracking-wider text-secondary">
+<span class="material-symbols-outlined text-[16px]">receipt_long</span>
+                Voucher de Liberación
+              </span>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-variant text-on-surface-variant font-mono-code">ACT-2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-tight">Reporte de Fallas al Finalizar Sesión</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Complete la inspección de entrega del puesto para desbloquear el equipo y mantener la calidad del laboratorio.
+            </p>
+<!-- Dynamic Selected Workstation Display -->
+<div class="mt-space-xs p-space-sm rounded-lg bg-surface-container-lowest flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary font-bold font-mono-code text-body-lg" id="ticket-badge-pc">
+                  PC-04
+                </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface leading-tight" id="ticket-title-pc">Estación PC-04</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="ticket-specs-pc">Intel i9 • RTX 4090 • 64GB RAM</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-error bg-error-container px-space-xs py-0.5 rounded font-mono-code" id="ticket-state-pc">
+                Finalizando
+              </span>
+</div>
+</div>
+<!-- Perforated Voucher Divider with Physical Cut Notches -->
+<div class="relative w-full flex items-center justify-between py-1 bg-surface-container-lowest">
+<!-- Left Half-circle Notch -->
+<div class="w-5 h-10 bg-surface rounded-r-full -ml-2.5"></div>
+<!-- Dashed separator -->
+<div class="w-full border-b-2 border-dashed border-outline-variant/60 mx-2"></div>
+<!-- Right Half-circle Notch -->
+<div class="w-5 h-10 bg-surface rounded-l-full -mr-2.5"></div>
+</div>
+<!-- Lower Stub: Interactive Form -->
+<form class="p-space-lg flex flex-col gap-space-md" id="fault-form" onsubmit="event.preventDefault(); submitFaultReport();">
+<!-- Target Workstation Input (Can also be picked by dropdown or map) -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-medium flex items-center justify-between">
+<span>Puesto a Entregar / Reportar</span>
+<span class="font-mono-code text-mono-code text-on-surface-variant">Requerido</span>
+</label>
+<div class="relative">
+<select class="w-full h-10 px-space-md rounded-lg bg-surface-container-low text-on-surface font-mono-code text-body-md outline-none cursor-pointer" id="select-workstation-input" onchange="syncStationSelect(this.value)">
+<option selected="" value="PC-04">PC-04 (Alerta de Tiempo Finalizado)</option>
+<option value="PC-20">PC-20 (Alerta de Tiempo Finalizado)</option>
+<option value="PC-02">PC-02 (Sesión Regular)</option>
+<option value="PC-08">PC-08 (Sesión Regular)</option>
+<option value="PC-11">PC-11 (Sesión Regular)</option>
+<option value="PC-17">PC-17 (Sesión Regular)</option>
+<option value="PC-01">PC-01 (Inspección Encargado)</option>
+<option value="PC-09">PC-09 (Mantenimiento Existente)</option>
+</select>
+</div>
+</div>
+<!-- Delivery Checklist (Quality & Hardware Verification) -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-on-surface font-medium">Estado de Entrega de Componentes</span>
+<div class="grid grid-cols-1 gap-space-xs">
+<label class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low cursor-pointer hover:bg-surface-container transition-colors">
+<input checked="" class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">keyboard_alt</span>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface font-medium">Periféricos Completos</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Teclado mecánico, mouse y headset en su lugar</span>
+</div>
+</label>
+<label class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low cursor-pointer hover:bg-surface-container transition-colors">
+<input checked="" class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">desktop_windows</span>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface font-medium">Monitor & Brazo Ajustable</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sin rayaduras y conectores limpios</span>
+</div>
+</label>
+<label class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low cursor-pointer hover:bg-surface-container transition-colors">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" id="check-rendimiento" type="checkbox"/>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">speed</span>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface font-medium">Rendimiento Óptimo sin Fallas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sin caídas de voltaje ni calentamiento excesivo</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Optional Fault Quick Tags & Textarea -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-medium flex items-center justify-between" for="fault-desc">
+<span>Descripción de Falla o Anomalia</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Opcional</span>
+</label>
+<!-- Quick Symptom Tags -->
+<div class="flex flex-wrap gap-1 mb-space-xs">
+<button class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-surface-container text-on-surface-variant hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" onclick="insertSymptom('Ventilador ruidoso / vibración')" type="button">
+                  + Ventilador ruidoso
+                </button>
+<button class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-surface-container text-on-surface-variant hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" onclick="insertSymptom('Puerto USB frontal flojo')" type="button">
+                  + USB frontal flojo
+                </button>
+<button class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-surface-container text-on-surface-variant hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" onclick="insertSymptom('Mouse pierde tracking ocasionalmente')" type="button">
+                  + Sensor mouse
+                </button>
+</div>
+<textarea class="w-full p-space-sm rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md outline-none resize-none placeholder:text-on-surface-variant/60 focus:ring-2 focus:ring-primary/20" id="fault-desc" placeholder="Ej. El ventilador del chasis emite un chillido al renderizar en Blender..." rows="3"></textarea>
+</div>
+<!-- Action: Submit and Free Station -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<button class="w-full h-11 bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md font-medium rounded-lg flex items-center justify-center gap-space-xs transition-all shadow-sm" type="submit">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span>Confirmar Entrega & Liberar Puesto</span>
+</button>
+<div class="flex items-center justify-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-emerald-600">verified_user</span>
+<span>Cierre de sesión seguro y eliminación de datos temporales</span>
+</div>
+</div>
+</form>
+<!-- Success Alert Toast (Hidden by default) -->
+<div class="hidden absolute inset-0 bg-surface-container-lowest p-space-lg flex flex-col items-center justify-center text-center gap-space-md z-20" id="report-success">
+<div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center">
+<span class="material-symbols-outlined text-[36px]">check_circle</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">¡Puesto Liberado con Éxito!</h4>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs" id="success-message">
+                El puesto ha sido liberado y puesto a disposición del siguiente estudiante en la fila virtual.
+              </p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low font-mono-code text-mono-code text-on-surface-variant w-full">
+              Folio de Cierre: #REL-748929 • Limpieza remota iniciada
+            </div>
+<button class="mt-space-sm px-space-lg py-space-xs rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" onclick="dismissSuccess()">
+              Cerrar y Regresar al Mapa
+            </button>
+</div>
+</div>
+<!-- Academic Lab Notice Card -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-start gap-space-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">info</span>
+<div class="flex flex-col gap-0.5 font-body-sm text-body-sm">
+<span class="font-semibold text-on-surface">Normativa de Resguardo de Equipos</span>
+<span>Cualquier daño o componente faltante no reportado al culminar la sesión será atribuido al último usuario registrado mediante su matrícula universitaria.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Station Details Sync
+  function selectStation(pcId, state, specs, remaining, details) {
+    // Fill the Fault Panel inputs
+    const selectElem = document.getElementById('select-workstation-input');
+    if (selectElem) {
+      let optionExists = false;
+      for (let i = 0; i < selectElem.options.length; i++) {
+        if (selectElem.options[i].value === pcId) {
+          selectElem.selectedIndex = i;
+          optionExists = true;
+          break;
+        }
+      }
+      if (!optionExists) {
+        const newOpt = new Option(pcId + ' (' + state + ')', pcId, true, true);
+        selectElem.add(newOpt);
+      }
+    }
+
+    const badge = document.getElementById('ticket-badge-pc');
+    const title = document.getElementById('ticket-title-pc');
+    const specsElem = document.getElementById('ticket-specs-pc');
+    const stateElem = document.getElementById('ticket-state-pc');
+
+    if (badge) badge.innerText = pcId;
+    if (title) title.innerText = 'Estación ' + pcId;
+    if (specsElem) specsElem.innerText = specs;
+    if (stateElem) {
+      stateElem.innerText = state;
+      if (state.includes('Crítico') || state.includes('Bloqueado')) {
+        stateElem.className = 'font-label-sm text-label-sm text-error bg-error-container px-space-xs py-0.5 rounded font-mono-code';
+      } else if (state.includes('Libre')) {
+        stateElem.className = 'font-label-sm text-label-sm text-emerald-800 bg-emerald-100 px-space-xs py-0.5 rounded font-mono-code';
+      } else {
+        stateElem.className = 'font-label-sm text-label-sm text-primary bg-primary-fixed px-space-xs py-0.5 rounded font-mono-code';
+      }
+    }
+
+    // Scroll smoothly to report card on small screens
+    if (window.innerWidth < 1024) {
+      document.getElementById('report-panel').scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  function syncStationSelect(val) {
+    const badge = document.getElementById('ticket-badge-pc');
+    const title = document.getElementById('ticket-title-pc');
+    if (badge) badge.innerText = val;
+    if (title) title.innerText = 'Estación ' + val;
+  }
+
+  function insertSymptom(text) {
+    const textarea = document.getElementById('fault-desc');
+    if (!textarea) return;
+    if (textarea.value.trim() === '') {
+      textarea.value = text;
+    } else {
+      textarea.value += ', ' + text;
+    }
+  }
+
+  function submitFaultReport() {
+    const pcId = document.getElementById('select-workstation-input').value;
+    const desc = document.getElementById('fault-desc').value;
+    const successModal = document.getElementById('report-success');
+    const msg = document.getElementById('success-message');
+
+    if (desc.trim().length > 0) {
+      msg.innerText = 'La estación ' + pcId + ' ha sido liberada y se registró el reporte técnico para revisión del encargado.';
+    } else {
+      msg.innerText = 'La estación ' + pcId + ' fue liberada sin incidentes y se encuentra lista para el siguiente turno.';
+    }
+
+    if (successModal) {
+      successModal.classList.remove('hidden');
+    }
+  }
+
+  function dismissSuccess() {
+    const successModal = document.getElementById('report-success');
+    if (successModal) {
+      successModal.classList.add('hidden');
+    }
+    const form = document.getElementById('fault-form');
+    if (form) form.reset();
+  }
+
+  // Real-time Countdown Simulation for active alerts
+  let timePc04 = 504; // 8 min 24 sec
+  let timePc20 = 252; // 4 min 12 sec
+
+  setInterval(() => {
+    if (timePc04 > 0) {
+      timePc04--;
+      const m = Math.floor(timePc04 / 60);
+      const s = timePc04 % 60;
+      const el = document.getElementById('live-timer-pc04');
+      if (el) el.innerText = (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+    }
+
+    if (timePc20 > 0) {
+      timePc20--;
+      const m2 = Math.floor(timePc20 / 60);
+      const s2 = timePc20 % 60;
+      const el2 = document.getElementById('live-timer-pc20');
+      if (el2) el2.innerText = (m2 < 10 ? '0' : '') + m2 + ':' + (s2 < 10 ? '0' : '') + s2;
+    }
+  }, 1000);
+</script></main><footer class="w-full bg-surface-container-low mt-margin-lg"><div class="w-full px-gutter-lg py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-md"><span>© 2025 LabReserve - Plataforma de Infraestructura & Cómputo Universitario</span><span class="hidden md:inline text-outline-variant">•</span><span class="hidden md:inline">Sesiones estrictas de 2.0 hrs inamovibles</span></div><div class="flex items-center gap-space-lg font-label-sm text-label-sm"><span class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span>Sistemas Operativos 100%</span><span class="text-outline-variant">|</span><span>Mesa de Ayuda Técnica Ext. 4402</span></div></div></footer></body></html>

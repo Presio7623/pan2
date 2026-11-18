@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed": "#e5deff", "primary-fixed": "#e9ddff", "surface-bright": "#f9f9ff", "secondary-fixed-dim": "#d3bbff", "on-tertiary-container": "#fffbff", "on-error-container": "#93000a", "surface-variant": "#dce2f3", "on-tertiary-fixed": "#1b1735", "primary": "#6b38d4", "surface-container": "#e7eefe", "on-tertiary": "#ffffff", "surface-container-high": "#e2e8f8", "error-container": "#ffdad6", "tertiary-fixed-dim": "#c8c2e9", "on-surface": "#151c27", "on-tertiary-fixed-variant": "#474363", "primary-fixed-dim": "#d0bcff", "inverse-surface": "#2a313d", "secondary": "#6f46b9", "surface": "#f9f9ff", "primary-container": "#8455ef", "background": "#f9f9ff", "surface-tint": "#6d3bd7", "surface-container-lowest": "#ffffff", "secondary-fixed": "#ebdcff", "on-secondary-fixed-variant": "#572ba0", "inverse-on-surface": "#ebf1ff", "outline": "#7b7486", "on-secondary-fixed": "#260059", "on-primary-fixed-variant": "#5516be", "error": "#ba1a1a", "tertiary": "#5d587a", "on-background": "#151c27", "surface-dim": "#d3daea", "secondary-container": "#b188ff", "on-surface-variant": "#494454", "surface-container-low": "#f0f3ff", "outline-variant": "#cbc3d7", "on-primary-fixed": "#23005c", "on-secondary": "#ffffff", "inverse-primary": "#d0bcff", "on-primary": "#ffffff", "surface-container-highest": "#dce2f3", "tertiary-container": "#757093", "on-primary-container": "#fffbff", "on-error": "#ffffff", "on-secondary-container": "#44118d" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "gutter": "1rem", "gutter-lg": "2rem", "space-md": "1rem", "margin-md": "2rem", "space-lg": "1.5rem", "margin": "1rem", "margin-lg": "3rem", "space-sm": "0.5rem", "space-xl": "2rem", "gutter-md": "1.5rem", "space-xs": "0.25rem" }, "fontFamily": { "body-md": ["Geist"], "headline-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-sm": ["Geist"], "body-lg": ["Geist"], "headline-xl-mobile": ["Plus Jakarta Sans"], "label-md": ["Geist"], "label-sm": ["Geist"], "headline-md": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "mono-code": ["Geist"] }, "fontSize": { "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-xl-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "mono-code": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(76,29,149,0.04)]"><div class="h-16 w-full px-gutter-lg flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><img alt="LabReserve Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAaYOuILgRGGQaj0QCi2WpKSl7cC2ogrYsx0By2tzHjTyupWlu0Npz7FoojqjRZHZyZ9J3itnT3dzdxxEMwWQDA-NlJoC2bb7nZif-Q1jOmIxilXp1SwJRPCsYP0gZGnCMO5phPky7cCTYZQod1dWV8ZSoAazknWw3g7lurCyvXJfQTshNJ83B3QoGGTc2iikessOttnHiECID6bsO0U6_xEeO-qdxuDvbGbueQXHL5"/><div class="flex flex-col"><span class="font-title-md text-title-md text-on-surface tracking-tight leading-none">LabReserve</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Centro de Cómputo</span></div></div><nav class="hidden lg:flex items-center gap-space-xs bg-surface-container-low px-space-xs py-space-xs rounded-full" data-active-classes="bg-primary-container text-on-primary-container font-medium shadow-sm"><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="reservar-ticket" href="#">Reservar & Ticket</a><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="gestion-del-encargado" href="#">Gestión del Encargado</a><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="esquema-del-laboratorio" href="#">Esquema del Laboratorio</a><a class="px-space-md py-space-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="registro-privado" href="#">Registro Privado</a></nav><div class="flex items-center gap-space-md"><div class="relative flex items-center bg-surface-container-lowest px-space-sm py-space-xs rounded-lg shadow-[0_1px_4px_rgba(76,29,149,0.04)]"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mr-space-xs hidden sm:inline">Rol:</span><select class="bg-transparent font-label-md text-label-md text-on-surface font-medium outline-none cursor-pointer pr-space-xs"><option value="estudiante">Estudiante</option><option value="profesor">Profesor</option><option value="encargado">Encargado de Lab</option></select></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Toast Notification Alert (Hidden by default, triggered by actions) -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-space-sm bg-inverse-surface text-inverse-on-surface px-space-lg py-space-md rounded-xl shadow-2xl" id="system-toast">
+<span class="material-symbols-outlined text-primary-fixed-dim" id="toast-icon">check_circle</span>
+<span class="font-body-md text-body-md" id="toast-message">Acción procesada en el nodo local</span>
+</div>
+<!-- Operational Context Header (Atmospheric Banner) -->
+<section class="w-full px-gutter-lg py-space-lg bg-surface-container-low border-none">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          Terminal de Consigna Local • Nodo CC-A3
+        </div>
+<h1 class="font-headline-md text-headline-md text-on-surface mt-space-xs">Panel del Encargado de Laboratorio</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Revisión de solicitudes en tiempo real, gestión de contingencia y condición física de estaciones.</p>
+</div>
+<!-- Institutional Privacy Boundary Badge -->
+<div class="flex items-center gap-space-sm bg-surface-container-highest px-space-md py-space-sm rounded-lg">
+<span class="material-symbols-outlined text-tertiary text-[20px]">lock_clock</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Circuito Físico Restringido</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sin registro público ni salida a SMS/Correo</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Work Environment Grid -->
+<div class="w-full px-gutter-lg py-space-lg max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- 1. RESUMEN OPERACIONAL DE FLUJO (Key Metric Badges) -->
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Metric 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Por Afirmar</span>
+<span class="font-headline-lg text-headline-lg text-primary mt-space-xs" id="counter-solicitudes">4</span>
+<span class="font-body-sm text-body-sm text-secondary">Turnos presenciales en espera</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[24px]">assignment_turned_in</span>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Puestos Activos</span>
+<span class="font-headline-lg text-headline-lg text-on-surface mt-space-xs" id="counter-activos">18</span>
+<span class="font-body-sm text-body-sm text-tertiary">De 24 disponibles</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[24px]">desktop_windows</span>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Mantenimiento</span>
+<span class="font-headline-lg text-headline-lg text-error mt-space-xs" id="counter-mantenimiento">3</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Aislados preventivamente</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-error-container flex items-center justify-center text-on-error-container">
+<span class="material-symbols-outlined text-[24px]">build_circle</span>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Fila Virtual</span>
+<span class="font-headline-lg text-headline-lg text-secondary-container mt-space-xs" id="counter-fila">5</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Estudiantes en espera de cupo</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[24px]">hourglass_top</span>
+</div>
+</div>
+</section>
+<!-- 2 & 4 Split Area: Revision Queue + Emergency Block Fast Action -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg">
+<!-- LEFT: Cola de Solicitudes Pendientes (Cols 1-8) -->
+<section class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">how_to_reg</span>
+<h2 class="font-title-md text-title-md text-on-surface">Cola de Afirmación y Validación Fiduciaria</h2>
+</div>
+<span class="font-mono-code text-mono-code text-on-surface-variant bg-surface-container-high px-space-sm py-space-xs rounded">
+            Ventana: 2.0 hrs fijas
+          </span>
+</div>
+<!-- Request Queue Container -->
+<div class="flex flex-col gap-space-md" id="request-list">
+<!-- Ticket Card 1 (Estudiante Ingeniería) -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-md" id="solicitud-c1">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed font-title-md text-title-md">
+                  VG
+                </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface">Valeria Gómez S.</span>
+<span class="font-mono-code text-mono-code text-on-surface-variant bg-surface-container px-space-xs rounded">#MAT-2021049</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Estudiante Pregrado • Fac. de Ingeniería y Ciencias</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-space-sm py-space-xs rounded-full self-start sm:self-auto">
+                Puesto Solicitado: PC-04 (GPU Lab)
+              </span>
+</div>
+<!-- Justification details -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Propósito Académico:</span>
+<span class="font-mono-code text-mono-code text-tertiary">Turno: 10:00 - 12:00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+                Renderizado de simulación termodinámica en OpenFOAM para Tesis de Grado. Requiere CUDA y aceleración por GPU.
+              </p>
+</div>
+<!-- Action Controls & Denial Selector -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Motivo si deniega:</span>
+<select class="bg-surface-container-high font-body-sm text-body-sm text-on-surface px-space-sm py-space-xs rounded-lg outline-none cursor-pointer" id="reason-c1">
+<option value="Cupo simultáneo saturado">Cupo simultáneo saturado</option>
+<option value="Mantenimiento preventivo">Mantenimiento preventivo</option>
+<option value="Inconsistencia de acreditación">Documentación incompleta</option>
+</select>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-high hover:bg-error-container hover:text-on-error-container text-error font-label-md text-label-md transition-colors flex items-center gap-space-xs" onclick="rejectRequest('solicitud-c1', 'reason-c1')">
+<span class="material-symbols-outlined text-[18px]">close</span>
+                  Denegar
+                </button>
+<button class="px-space-lg py-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md shadow-sm transition-colors flex items-center gap-space-xs" onclick="approveRequest('solicitud-c1', 'PC-04')">
+<span class="material-symbols-outlined text-[18px]">check</span>
+                  Aprobar Solicitud
+                </button>
+</div>
+</div>
+</div>
+<!-- Ticket Card 2 (Profesor Investigador) -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-md" id="solicitud-c2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed font-title-md text-title-md">
+                  RA
+                </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface">Dr. Ricardo Alvear</span>
+<span class="font-mono-code text-mono-code text-on-surface-variant bg-surface-container px-space-xs rounded">#DOC-8831</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Profesor Titular • Dpto. de Ciencias Computacionales</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-space-sm py-space-xs rounded-full self-start sm:self-auto">
+                Puesto Solicitado: PC-11 (Workstation)
+              </span>
+</div>
+<!-- Justification details -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Propósito Académico:</span>
+<span class="font-mono-code text-mono-code text-tertiary">Turno: 10:00 - 12:00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+                Pruebas de latencia en cluster local con librerías MPI para proyecto FONDECYT. Requiere acceso exclusivo a bus Ethernet gigabit.
+              </p>
+</div>
+<!-- Action Controls & Denial Selector -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Motivo si deniega:</span>
+<select class="bg-surface-container-high font-body-sm text-body-sm text-on-surface px-space-sm py-space-xs rounded-lg outline-none cursor-pointer" id="reason-c2">
+<option value="Cupo simultáneo saturado">Cupo simultáneo saturado</option>
+<option value="Mantenimiento preventivo">Mantenimiento preventivo</option>
+<option value="Inconsistencia de acreditación">Documentación incompleta</option>
+</select>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-high hover:bg-error-container hover:text-on-error-container text-error font-label-md text-label-md transition-colors flex items-center gap-space-xs" onclick="rejectRequest('solicitud-c2', 'reason-c2')">
+<span class="material-symbols-outlined text-[18px]">close</span>
+                  Denegar
+                </button>
+<button class="px-space-lg py-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md shadow-sm transition-colors flex items-center gap-space-xs" onclick="approveRequest('solicitud-c2', 'PC-11')">
+<span class="material-symbols-outlined text-[18px]">check</span>
+                  Aprobar Solicitud
+                </button>
+</div>
+</div>
+</div>
+<!-- Ticket Card 3 (Estudiante Postgrado) -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-md" id="solicitud-c3">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed font-title-md text-title-md">
+                  MN
+                </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface">Mateo Navas</span>
+<span class="font-mono-code text-mono-code text-on-surface-variant bg-surface-container px-space-xs rounded">#POS-4009</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Maestría en Bioestadística • Salud Pública</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-space-sm py-space-xs rounded-full self-start sm:self-auto">
+                Puesto Solicitado: PC-14 (Dual Screen)
+              </span>
+</div>
+<!-- Justification details -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Propósito Académico:</span>
+<span class="font-mono-code text-mono-code text-tertiary">Turno: 12:00 - 14:00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+                Modelado epidemiológico con scripts RStudio y visualización espacial en QGIS. Requiere pantalla secundaria.
+              </p>
+</div>
+<!-- Action Controls & Denial Selector -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Motivo si deniega:</span>
+<select class="bg-surface-container-high font-body-sm text-body-sm text-on-surface px-space-sm py-space-xs rounded-lg outline-none cursor-pointer" id="reason-c3">
+<option value="Cupo simultáneo saturado">Cupo simultáneo saturado</option>
+<option value="Mantenimiento preventivo">Mantenimiento preventivo</option>
+<option value="Inconsistencia de acreditación">Documentación incompleta</option>
+</select>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-high hover:bg-error-container hover:text-on-error-container text-error font-label-md text-label-md transition-colors flex items-center gap-space-xs" onclick="rejectRequest('solicitud-c3', 'reason-c3')">
+<span class="material-symbols-outlined text-[18px]">close</span>
+                  Denegar
+                </button>
+<button class="px-space-lg py-space-xs rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md shadow-sm transition-colors flex items-center gap-space-xs" onclick="approveRequest('solicitud-c3', 'PC-14')">
+<span class="material-symbols-outlined text-[18px]">check</span>
+                  Aprobar Solicitud
+                </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- RIGHT: Control de Bloqueo Instantáneo por Mantenimiento & Políticas (Cols 9-12) -->
+<section class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Bloqueo Express Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">power_off</span>
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md text-on-surface">Inhabilitación Rápida</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bloqueo preventivo de terminales</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+            Al bloquear una estación, se elimina de los turnos seleccionables y los usuarios en fila virtual no podrán reservarla.
+          </p>
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-sm">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Seleccionar Puesto:</label>
+<div class="flex gap-space-xs">
+<select class="flex-1 bg-surface-container-lowest font-body-md text-body-md text-on-surface px-space-md py-space-xs rounded-lg outline-none" id="quick-block-select">
+<option value="PC-01">Puesto PC-01 (General)</option>
+<option value="PC-04">Puesto PC-04 (GPU Lab)</option>
+<option value="PC-08">Puesto PC-08 (Dev Station)</option>
+<option value="PC-12">Puesto PC-12 (CAD Lab)</option>
+<option value="FILA-A">Fila Completa A (Puestos 01 al 06)</option>
+</select>
+<button class="bg-primary hover:bg-primary-container text-on-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md flex items-center justify-center shrink-0 transition-colors" onclick="executeQuickBlock()">
+                Bloquear
+              </button>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant italic">Acción inmediata no reversible por estudiantes.</span>
+</div>
+<!-- Active Maintenance Block list -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Puestos Bloqueados Actualmente:</span>
+<div class="flex flex-col gap-space-xs" id="blocked-items-list">
+<div class="flex items-center justify-between bg-error-container/30 px-space-sm py-space-xs rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span class="font-mono-code text-mono-code text-on-surface">PC-08 • Recambio pasta térmica</span>
+</div>
+<button class="text-error hover:text-on-error-container font-label-sm text-label-sm font-semibold underline" onclick="unblockStation(this, 'PC-08')">Liberar</button>
+</div>
+<div class="flex items-center justify-between bg-error-container/30 px-space-sm py-space-xs rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span class="font-mono-code text-mono-code text-on-surface">PC-19 • Calibración de color</span>
+</div>
+<button class="text-error hover:text-on-error-container font-label-sm text-label-sm font-semibold underline" onclick="unblockStation(this, 'PC-19')">Liberar</button>
+</div>
+</div>
+</div>
+</div>
+<!-- 5. RECORDATORIOS DE EXCLUSIÓN INSTITUCIONAL -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px]">shield_person</span>
+<h4 class="font-title-md text-title-md text-on-surface">Normativa del Sistema Cerrado</h4>
+</div>
+<div class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">remove_done</span>
+<span><strong>Sin bitácoras públicas:</strong> Los registros quedan encriptados en el servidor local de sala sin visibilidad web.</span>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">phonelink_erase</span>
+<span><strong>Sin notificaciones salientes:</strong> El software no emite alertas por SMS ni correo; la fila es fiduciaria presencial.</span>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">no_transfer</span>
+<span><strong>Sin tracking de préstamo externo:</strong> Los componentes físicos y periféricos no están autorizados a cruzar el umbral del laboratorio.</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- 3. PANEL DE ESTATUS DE CALIDAD DEL EQUIPO (Minimalist pastel indicators) -->
+<section class="w-full flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">verified</span>
+<div>
+<h2 class="font-title-md text-title-md text-on-surface">Estatus de Calidad de Equipamiento</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Supervisión física de periféricos clave: Pantalla, Teclado y GPU/Torre.</p>
+</div>
+</div>
+<!-- Legend -->
+<div class="flex flex-wrap items-center gap-space-sm text-label-sm font-label-sm">
+<span class="flex items-center gap-space-xs bg-emerald-50 text-emerald-800 px-space-sm py-0.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-emerald-600"></span>Excelente (100% OK)
+          </span>
+<span class="flex items-center gap-space-xs bg-primary-fixed text-on-primary-fixed px-space-sm py-0.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-primary"></span>Óptimo
+          </span>
+<span class="flex items-center gap-space-xs bg-amber-50 text-amber-800 px-space-sm py-0.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-amber-600"></span>Observado
+          </span>
+<span class="flex items-center gap-space-xs bg-error-container text-on-error-container px-space-sm py-0.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-error"></span>Fuera de Servicio
+          </span>
+</div>
+</div>
+<!-- Equipment Quality Matrix Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Station Card PC-01 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Puesto PC-01</span>
+<span class="font-label-sm text-label-sm bg-emerald-50 text-emerald-800 px-space-sm py-0.5 rounded-full flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>Excelente
+            </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Intel i7 • 32GB RAM • RTX 4070</span>
+<!-- Peripherals Quick Health Check -->
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-space-xs mt-space-xs">
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">monitor</span> Pantalla
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">keyboard</span> Teclado/Mouse
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">memory</span> Torre / GPU
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+</div>
+<button class="w-full mt-space-xs py-space-xs rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface-variant font-label-md text-label-md transition-colors" onclick="toggleStationBlock('PC-01', this)">
+            Inhabilitar Puesto
+          </button>
+</div>
+<!-- Station Card PC-04 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Puesto PC-04</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed px-space-sm py-0.5 rounded-full flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Óptimo
+            </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ryzen 9 • 64GB RAM • RTX 4090</span>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-space-xs mt-space-xs">
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">monitor</span> Pantalla
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">keyboard</span> Teclado/Mouse
+              </span>
+<span class="font-mono-code text-mono-code text-amber-700 font-semibold">Atención</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">memory</span> Torre / GPU
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+</div>
+<button class="w-full mt-space-xs py-space-xs rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface-variant font-label-md text-label-md transition-colors" onclick="toggleStationBlock('PC-04', this)">
+            Inhabilitar Puesto
+          </button>
+</div>
+<!-- Station Card PC-08 (Mantenimiento Activo) -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm opacity-90" id="card-status-PC-08">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Puesto PC-08</span>
+<span class="font-label-sm text-label-sm bg-error-container text-on-error-container px-space-sm py-0.5 rounded-full flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>Fuera de Servicio
+            </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Intel i9 • 64GB RAM • Dual RTX 3080</span>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-space-xs mt-space-xs">
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">monitor</span> Pantalla
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">keyboard</span> Teclado/Mouse
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">memory</span> Torre / GPU
+              </span>
+<span class="font-mono-code text-mono-code text-error font-semibold">Atención</span>
+</div>
+</div>
+<button class="w-full mt-space-xs py-space-xs rounded-lg bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md transition-colors" onclick="toggleStationBlock('PC-08', this)">
+            Rehabilitar Puesto
+          </button>
+</div>
+<!-- Station Card PC-12 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Puesto PC-12</span>
+<span class="font-label-sm text-label-sm bg-amber-50 text-amber-800 px-space-sm py-0.5 rounded-full flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-600"></span>Observado
+            </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Mac Studio • M2 Ultra • 64GB Unified</span>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-space-xs mt-space-xs">
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">monitor</span> Pantalla
+              </span>
+<span class="font-mono-code text-mono-code text-amber-700 font-semibold">Atención</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">keyboard</span> Teclado/Mouse
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">memory</span> Torre / GPU
+              </span>
+<span class="font-mono-code text-mono-code text-emerald-700 font-semibold">OK</span>
+</div>
+</div>
+<button class="w-full mt-space-xs py-space-xs rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface-variant font-label-md text-label-md transition-colors" onclick="toggleStationBlock('PC-12', this)">
+            Inhabilitar Puesto
+          </button>
+</div>
+</div>
+</section>
+</div>
+<!-- Interactive JavaScript Logic -->
+<script>
+    function triggerNotification(message, icon = 'check_circle') {
+      const toast = document.getElementById('system-toast');
+      const msg = document.getElementById('toast-message');
+      const icn = document.getElementById('toast-icon');
+      
+      msg.textContent = message;
+      icn.textContent = icon;
+      
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-20', 'opacity-0');
+      }, 3500);
+    }
+
+    function approveRequest(elementId, stationId) {
+      const el = document.getElementById(elementId);
+      if (el) {
+        el.style.transition = 'all 0.35s ease';
+        el.style.opacity = '0';
+        el.style.transform = 'scale(0.96)';
+        
+        setTimeout(() => {
+          el.remove();
+          updateCounters(-1, 0, 0, 0);
+          triggerNotification(`Solicitud afirmada con éxito para ${stationId}. Puesto asignado.`);
+          checkEmptyQueue();
+        }, 350);
+      }
+    }
+
+    function rejectRequest(elementId, reasonSelectId) {
+      const el = document.getElementById(elementId);
+      const reasonEl = document.getElementById(reasonSelectId);
+      const selectedReason = reasonEl ? reasonEl.value : 'Cupo simultáneo saturado';
+      
+      if (el) {
+        el.style.transition = 'all 0.35s ease';
+        el.style.opacity = '0';
+        el.style.transform = 'scale(0.96)';
+        
+        setTimeout(() => {
+          el.remove();
+          updateCounters(-1, 0, 0, 0);
+          triggerNotification(`Solicitud rechazada: ${selectedReason}`, 'cancel');
+          checkEmptyQueue();
+        }, 350);
+      }
+    }
+
+    function checkEmptyQueue() {
+      const list = document.getElementById('request-list');
+      if (list && list.children.length === 0) {
+        list.innerHTML = `
+          <div class="bg-surface-container-low p-space-xl rounded-xl text-center flex flex-col items-center justify-center gap-space-sm">
+            <span class="material-symbols-outlined text-tertiary text-[36px]">task_alt</span>
+            <span class="font-title-md text-title-md text-on-surface">No hay solicitudes pendientes</span>
+            <span class="font-body-sm text-body-sm text-on-surface-variant">Todas las peticiones del turno actual han sido resueltas en el nodo local.</span>
+          </div>
+        `;
+      }
+    }
+
+    function executeQuickBlock() {
+      const selector = document.getElementById('quick-block-select');
+      const target = selector.value;
+      
+      const blockedList = document.getElementById('blocked-items-list');
+      const newBlock = document.createElement('div');
+      newBlock.className = 'flex items-center justify-between bg-error-container/30 px-space-sm py-space-xs rounded-lg transition-all';
+      newBlock.innerHTML = `
+        <div class="flex items-center gap-space-xs">
+          <span class="w-2 h-2 rounded-full bg-error"></span>
+          <span class="font-mono-code text-mono-code text-on-surface">${target} • Bloqueo manual express</span>
+        </div>
+        <button onclick="unblockStation(this, '${target}')" class="text-error hover:text-on-error-container font-label-sm text-label-sm font-semibold underline">Liberar</button>
+      `;
+      
+      blockedList.prepend(newBlock);
+      updateCounters(0, -1, 1, 0);
+      triggerNotification(`Puesto ${target} puesto en mantenimiento preventivo. Retirado de cola.`, 'build_circle');
+    }
+
+    function unblockStation(buttonElement, stationId) {
+      const row = buttonElement.closest('div');
+      if (row) {
+        row.remove();
+        updateCounters(0, 1, -1, 0);
+        triggerNotification(`Puesto ${stationId} rehabilitado para reserva inmediata.`, 'check_circle');
+      }
+    }
+
+    function toggleStationBlock(stationId, btn) {
+      const isBlocked = btn.textContent.includes('Rehabilitar');
+      if (isBlocked) {
+        btn.textContent = 'Inhabilitar Puesto';
+        btn.className = 'w-full mt-space-xs py-space-xs rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface-variant font-label-md text-label-md transition-colors';
+        updateCounters(0, 1, -1, 0);
+        triggerNotification(`Puesto ${stationId} activado y devuelto a disponiblidad regular.`);
+      } else {
+        btn.textContent = 'Rehabilitar Puesto';
+        btn.className = 'w-full mt-space-xs py-space-xs rounded-lg bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md transition-colors';
+        updateCounters(0, -1, 1, 0);
+        triggerNotification(`Puesto ${stationId} bloqueado por mantenimiento de servicio.`, 'handyman');
+      }
+    }
+
+    function updateCounters(deltaReq, deltaAct, deltaMant, deltaFila) {
+      const reqEl = document.getElementById('counter-solicitudes');
+      const actEl = document.getElementById('counter-activos');
+      const mantEl = document.getElementById('counter-mantenimiento');
+      const filaEl = document.getElementById('counter-fila');
+
+      if (reqEl && deltaReq) reqEl.textContent = Math.max(0, parseInt(reqEl.textContent) + deltaReq);
+      if (actEl && deltaAct) actEl.textContent = Math.max(0, parseInt(actEl.textContent) + deltaAct);
+      if (mantEl && deltaMant) mantEl.textContent = Math.max(0, parseInt(mantEl.textContent) + deltaMant);
+      if (filaEl && deltaFila) filaEl.textContent = Math.max(0, parseInt(filaEl.textContent) + deltaFila);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-margin-lg"><div class="w-full px-gutter-lg py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-md"><span>© 2025 LabReserve - Plataforma de Infraestructura & Cómputo Universitario</span><span class="hidden md:inline text-outline-variant">•</span><span class="hidden md:inline">Sesiones estrictas de 2.0 hrs inamovibles</span></div><div class="flex items-center gap-space-lg font-label-sm text-label-sm"><span class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span>Sistemas Operativos 100%</span><span class="text-outline-variant">|</span><span>Mesa de Ayuda Técnica Ext. 4402</span></div></div></footer></body></html>
